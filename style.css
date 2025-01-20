@@ -48,7 +48,6 @@ body {
   display: flex;
   align-items: center;
   gap: 4.5rem;
-  margin: 2rem;
 }
 
 .intro__header {
@@ -217,6 +216,7 @@ body {
     flex-direction: column;
     text-align: center;
     gap: 6.4rem;
+    padding: 2rem;
   }
 
   .intro__heading {
