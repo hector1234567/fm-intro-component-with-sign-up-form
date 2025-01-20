@@ -95,7 +95,7 @@ body {
   width: 100%;
   border: none;
   cursor: pointer;
-  padding: 1.5rem;
+  padding: 1.3rem;
   text-align: center;
   width: 100%;
   display: inline-table;
@@ -193,6 +193,7 @@ body {
   font-weight: var(--Medium);
   font-size: 1.1rem;
   line-height: 236.3636%;
+  letter-spacing: 0;
   color: var(--Grayish-Blue);
   text-align: center;
   display: block;
