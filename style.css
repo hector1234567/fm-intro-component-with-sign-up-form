@@ -86,7 +86,7 @@ body {
 .button:visited {
   color: var(--White);
   font-size: 1.5rem;
-  line-height: 173.3333%;
+  line-height: 226.3333%;
   letter-spacing: 0.027rem;
   font-weight: var(--Regular);
   height: 6rem;
@@ -95,7 +95,7 @@ body {
   width: 100%;
   border: none;
   cursor: pointer;
-  padding: 1.3rem;
+  padding: 1.2rem;
   text-align: center;
   width: 100%;
   display: inline-table;
