@@ -12,6 +12,7 @@
 
   --Dark-Blue: hsl(249, 10%, 26%);
   --Grayish-Blue: hsl(246, 25%, 77%);
+  --Grayish-Blue-transparent: hsla(246, 25%, 77%, 0.698);
   --White: #fff;
 
   --Bold: 700;
@@ -144,7 +145,7 @@ body {
 .form__input {
   height: 5.6rem;
   border-radius: 0.5rem;
-  border: 0.1rem solid var(--Grayish-Blue);
+  border: 0.1rem solid var(--Grayish-Blue-transparent);
   padding: 0 3.2rem;
   font-family: inherit;
   letter-spacing: 0.025rem;
