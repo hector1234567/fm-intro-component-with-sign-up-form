@@ -39,34 +39,54 @@
         </div>
         <div class="intro__form">
           <form action="#submit" method="post" class="form">
+          <div class="form__row">
             <input
               type="text"
               name="first-name"
               id="first-name"
               placeholder="First Name"
               class="form__input"
+              autocomplete="off"
+              required
             />
+            <span class="form__error-message">First Name cannot be empty</span>
+          </div>
+          <div class="form__row">
             <input
               type="text"
               name="last-name"
               id="last-name"
               placeholder="Last Name"
               class="form__input"
+              autocomplete="off"
+              required
             />
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Email Address"
-              class="form__input"
-            />
-            <input
-              type="password"
-              name="password"
-              id="password"
-              placeholder="Password"
-              class="form__input"
-            />
+            <span class="form__error-message">Last Name cannot be empty</span>
+          </div>
+          <div class="form__row">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email Address"
+                class="form__input"
+                autocomplete="off"
+                required
+              />
+              <span class="form__error-message">Looks that this is not an email</span>
+            </div>
+            <div class="form__row">
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Password"
+                class="form__input"
+                autocomplete="off"
+                required
+              />
+              <span class="form__error-message">Password cannot be empty</span>
+            </div>
             <button type="submit" class="button button-green">Claim your free trial</button>
           </form>
           <span class="intro__terms"

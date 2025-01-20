@@ -97,6 +97,7 @@ body {
     border-radius: 1rem;
     width: 100%;
     border: none;
+    cursor: pointer;
 }
 
 .button strong {
@@ -117,6 +118,10 @@ body {
 
 }
 
+.button-green:hover {
+    opacity: .7;
+}
+
 .intro__form {
     padding: 4rem;
     background-color: var(--White);
@@ -128,6 +133,12 @@ body {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+}
+
+.form__row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .form__input {
@@ -143,9 +154,29 @@ body {
     line-height: 187.714%;
 }
 
+.form__error-message {
+    align-self: flex-end;
+    font-size: 1.1rem;
+    color: var(--Red);
+    font-weight: var(--Medium);
+    margin-top: .6rem;
+    display: none;
+}
+
 .form__input:focus {
     outline: none;
     border: .1rem solid var(--Dark-Blue);
+}
+
+.form__input:focus:invalid {
+    border: .2rem solid var(--Red);
+    background-image: url(images/icon-error.svg);
+    background-repeat: no-repeat;
+    background-position: right 1.6rem center;
+}
+
+.form__input:focus:invalid ~ .form__error-message{
+    display: block;
 }
 
 .form__input::placeholder {
@@ -174,4 +205,8 @@ body {
     text-decoration: none;
     color: var(--Red);
     font-weight: var(--Bold);
+}
+
+.intro__terms a:hover {
+    opacity: .7;
 }
