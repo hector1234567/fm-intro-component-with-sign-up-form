@@ -217,6 +217,7 @@ body {
     flex-direction: column;
     text-align: center;
     gap: 6.4rem;
+    padding: 8.8rem 2.4rem 6.8rem 2.4rem;
   }
 
   .intro__heading {
@@ -226,7 +227,6 @@ body {
 
 @media screen and (max-width: 586px) {
   .intro {
-    padding: 2rem;
     width: 100dvw;
   }
 
