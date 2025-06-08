@@ -168,14 +168,14 @@ body {
   border: 0.1rem solid var(--Dark-Blue);
 }
 
-.form__input:focus:user-invalid {
+.form__input:focus:invalid {
   border: 0.2rem solid var(--Red);
   background-image: url(images/icon-error.svg);
   background-repeat: no-repeat;
   background-position: right 1.6rem center;
 }
 
-.form__input:focus:user-invalid ~ .form__error-message {
+.form__input:focus:invalid ~ .form__error-message {
   display: block;
 }
 
